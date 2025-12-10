@@ -73,8 +73,11 @@ export default function RecursosPage() {
                 <Phone className="h-12 w-12 text-destructive mx-auto mb-4" />
                 <h3 className="text-2xl font-bold mb-2">141</h3>
                 <p className="text-sm text-muted-foreground mb-4">SEDRONAR - Orientación sobre adicciones</p>
-                <Button className="w-full bg-destructive hover:bg-destructive/90" asChild>
-                  <a href="tel:141">Llamar Ahora</a>
+                <Button 
+                  className="w-full bg-destructive hover:bg-destructive/90"
+                  onClick={() => window.location.href = 'tel:141'}
+                >
+                  Llamar Ahora
                 </Button>
               </div>
               
@@ -82,8 +85,11 @@ export default function RecursosPage() {
                 <Phone className="h-12 w-12 text-orange-600 mx-auto mb-4" />
                 <h3 className="text-2xl font-bold mb-2">135</h3>
                 <p className="text-sm text-muted-foreground mb-4">Centro de Asistencia al Suicida</p>
-                <Button className="w-full bg-orange-600 hover:bg-orange-700 text-white" asChild>
-                  <a href="tel:135">Llamar Ahora</a>
+                <Button 
+                  className="w-full bg-orange-600 hover:bg-orange-700 text-white"
+                  onClick={() => window.location.href = 'tel:135'}
+                >
+                  Llamar Ahora
                 </Button>
               </div>
               
@@ -91,8 +97,11 @@ export default function RecursosPage() {
                 <Phone className="h-12 w-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="text-2xl font-bold mb-2">144</h3>
                 <p className="text-sm text-muted-foreground mb-4">Violencia de Género</p>
-                <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white" asChild>
-                  <a href="tel:144">Llamar Ahora</a>
+                <Button 
+                  className="w-full bg-blue-600 hover:bg-blue-700 text-white"
+                  onClick={() => window.location.href = 'tel:144'}
+                >
+                  Llamar Ahora
                 </Button>
               </div>
             </div>

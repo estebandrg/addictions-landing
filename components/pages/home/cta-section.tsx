@@ -21,12 +21,13 @@ export function CTASection() {
           </CardHeader>
           <CardContent className="text-center space-y-6 relative">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="secondary" className="gap-2" asChild>
-                <a href="tel:141">
-                  <Phone className="h-5 w-5" />
-                  Llamar 141 Ahora
-                </a>
-              </Button>
+              <a 
+                href="tel:141"
+                className="inline-flex items-center justify-center gap-2 font-medium px-8 py-4 rounded-md bg-secondary hover:bg-secondary/80 text-secondary-foreground transition-colors"
+              >
+                <Phone className="h-5 w-5" />
+                Llamar 141 Ahora
+              </a>
               <Button 
                 size="lg" 
                 variant="outline" 

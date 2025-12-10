@@ -38,11 +38,13 @@ export function CrisisLines() {
                 <Clock className="h-4 w-4 text-primary" />
                 <span>Disponible 24 horas, 7 días a la semana</span>
               </div>
-              <Button className="w-full" size="lg" asChild>
-                <a href={line.tel}>
-                  <Phone className="h-5 w-5 mr-2" />
-                  Llamar Ahora
-                </a>
+              <Button 
+                className="w-full" 
+                size="lg"
+                onClick={() => window.location.href = line.tel}
+              >
+                <Phone className="h-5 w-5 mr-2" />
+                Llamar Ahora
               </Button>
             </CardContent>
           </Card>
