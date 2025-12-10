@@ -73,36 +73,36 @@ export default function RecursosPage() {
                 <Phone className="h-12 w-12 text-destructive mx-auto mb-4" />
                 <h3 className="text-2xl font-bold mb-2">141</h3>
                 <p className="text-sm text-muted-foreground mb-4">SEDRONAR - Orientación sobre adicciones</p>
-                <Button 
-                  className="w-full bg-destructive hover:bg-destructive/90"
-                  onClick={() => window.location.href = 'tel:141'}
+                <a 
+                  href="tel:141"
+                  className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors h-9 px-4 py-2 w-full bg-destructive text-destructive-foreground shadow hover:bg-destructive/90"
                 >
                   Llamar Ahora
-                </Button>
+                </a>
               </div>
               
               <div className="bg-orange-100 p-6 rounded-lg border border-orange-200 text-center">
                 <Phone className="h-12 w-12 text-orange-600 mx-auto mb-4" />
                 <h3 className="text-2xl font-bold mb-2">135</h3>
                 <p className="text-sm text-muted-foreground mb-4">Centro de Asistencia al Suicida</p>
-                <Button 
-                  className="w-full bg-orange-600 hover:bg-orange-700 text-white"
-                  onClick={() => window.location.href = 'tel:135'}
+                <a 
+                  href="tel:135"
+                  className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors h-9 px-4 py-2 w-full bg-orange-600 text-white shadow hover:bg-orange-700"
                 >
                   Llamar Ahora
-                </Button>
+                </a>
               </div>
               
               <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 text-center">
                 <Phone className="h-12 w-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="text-2xl font-bold mb-2">144</h3>
                 <p className="text-sm text-muted-foreground mb-4">Violencia de Género</p>
-                <Button 
-                  className="w-full bg-blue-600 hover:bg-blue-700 text-white"
-                  onClick={() => window.location.href = 'tel:144'}
+                <a 
+                  href="tel:144"
+                  className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors h-9 px-4 py-2 w-full bg-blue-600 text-white shadow hover:bg-blue-700"
                 >
                   Llamar Ahora
-                </Button>
+                </a>
               </div>
             </div>
           </div>

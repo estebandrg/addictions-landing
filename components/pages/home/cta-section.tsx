@@ -23,7 +23,7 @@ export function CTASection() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
                 href="tel:141"
-                className="inline-flex items-center justify-center gap-2 font-medium px-8 py-4 rounded-md bg-secondary hover:bg-secondary/80 text-secondary-foreground transition-colors"
+                className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors h-10 px-8 bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80"
               >
                 <Phone className="h-5 w-5" />
                 Llamar 141 Ahora
